@@ -1,54 +1,77 @@
 {
     "header": {
-        "eyebrow": "我們的作品",
+        "eyebrow": "作品展示",
         "title": "精選案例",
-        "subtitle": "探索我們打造的創新數位體驗作品。"
+        "subtitle": "這些是我們實際開發的數位產品與互動體驗。"
     },
     "filters": [
         "全部作品",
-        "AI 系統",
+        "Web 應用",
         "3D 網頁",
-        "互動設計"
+        "互動體驗"
     ],
     "projects": [
         {
-            "title": "神經網路分析平台",
-            "description": "為企業客戶打造的即時 AI 數據視覺化系統",
-            "category": "AI 系統",
-            "imageSrc": "",
-            "year": "2024",
-            "tags": ["AI 系統", "數據視覺化", "企業解決方案"]
+            "title": "電商平台系統",
+            "description": "完整電商系統，包含商品管理、購物車、訂單與金流整合。",
+            "category": "Web 應用",
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/next-shop-cover.png",
+            "year": "2026",
+            "tags": [
+                "Next.js",
+                "Spring Boot",
+                "Stripe",
+                "電商系統"
+            ],
+            "demoUrl": "https://next-shop-three-psi.vercel.app/products"
         },
         {
-            "title": "沉浸式產品展示",
-            "description": "互動式 3D 產品探索體驗",
+            "title": "知識內容平台",
+            "description": "類似 GitBook 的內容平台，支援 MDX、章節結構與靜態部署。",
+            "category": "Web 應用",
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/next-book-cover.png",
+            "year": "2026",
+            "tags": [
+                "Next.js",
+                "MDX",
+                "內容管理",
+                "靜態網站"
+            ],
+            "demoUrl": "https://vince115.github.io/next-book/"
+        },
+        {
+            "title": "線上抽籤互動網站",
+            "description": "結合動畫與互動流程的沉浸式體驗網站，提升使用者參與感。",
+            "category": "互動體驗",
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/temple-oracle-cover-1.png",
+            "year": "2024",
+            "tags": [
+                "Next.js",
+                "動畫互動",
+                "UI/UX",
+                "遊戲化體驗"
+            ],
+            "demoUrl": "https://temple-oracle.vercel.app"
+        },
+        {
+            "title": "3D 產品展示頁",
+            "description": "使用 Three.js 建立互動式 3D 展示，提升產品呈現效果。",
             "category": "3D 網頁",
-            "imageSrc": "",
+            "imageSrc": "/images/cases/3d-demo.jpg",
             "year": "2024",
-            "tags": ["3D 網頁", "產品展示", "互動設計"]
-        },
-        {
-            "title": "智慧客服系統",
-            "description": "結合自然語言處理的 AI 客服解決方案",
-            "category": "AI 系統",
-            "imageSrc": "",
-            "year": "2024",
-            "tags": ["AI 系統", "自然語言處理", "客服解決方案"]
-        },
-        {
-            "title": "虛擬展覽空間",
-            "description": "為藝術家打造的沉浸式 3D 展覽平台",
-            "category": "3D 網頁",
-            "imageSrc": "",
-            "year": "2024",
-            "tags": ["3D 網頁", "虛擬展覽", "藝術展示"]
+            "tags": [
+                "Three.js",
+                "3D",
+                "產品展示",
+                "互動設計"
+            ],
+            "demoUrl": "https://3d-demo.vercel.app"
         }
-        
     ],
     "contact": {
-        "title": "一起打造您的品牌故事",
-        "description": "我們準備好協助您創造卓越的數位體驗。",
-        "buttonLabel": "開始專案",
+        "title": "一起打造您的專案",
+        "description": "無論是網站、系統或互動體驗，我們都能協助您完成。",
+        "buttonLabel": "聯絡我們",
         "buttonHref": "/tw/contact"
     }
 }
