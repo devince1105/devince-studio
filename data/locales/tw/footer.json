@@ -1,0 +1,74 @@
+{
+    "brand": {
+        "name": "Devince Studio",
+        "description": "Devince Studio 專注於打造可擴展的網站系統與數位平台，為品牌長期成長而設計。"
+    },
+    "social": [
+        {
+            "label": "Twitter",
+            "href": "#"
+        },
+        {
+            "label": "LinkedIn",
+            "href": "#"
+        },
+        {
+            "label": "Instagram",
+            "href": "#"
+        }
+    ],
+    "sections": {
+        "services": {
+            "title": "服務項目",
+            "items": [
+                {
+                    "label": "企業形象網站",
+                    "href": "#"
+                },
+                {
+                    "label": "品牌網站",
+                    "href": "#"
+                },
+                {
+                    "label": "客製化網站系統",
+                    "href": "#"
+                }
+            ]
+        },
+        "company": {
+            "title": "公司資訊",
+            "items": [
+                {
+                    "label": "關於我們",
+                    "href": "#"
+                },
+                {
+                    "label": "作品案例",
+                    "href": "#"
+                },
+                {
+                    "label": "合作流程",
+                    "href": "#"
+                }
+            ]
+        },
+        "connect": {
+            "title": "聯絡方式",
+            "items": [
+                {
+                    "label": "聯絡我們",
+                    "href": "#"
+                },
+                {
+                    "label": "Email",
+                    "href": "#"
+                }
+            ]
+        }
+    },
+    "legal": {
+        "copyright": "版權所有。",
+        "privacy": "隱私權政策",
+        "terms": "服務條款"
+    }
+}

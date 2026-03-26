@@ -1,0 +1,48 @@
+{
+    "header": {
+        "eyebrow": "お問い合わせ",
+        "title": "素晴らしいものを一緒に作りましょう",
+        "subtitle": "プロジェクトについてお聞かせください。24時間以内にご連絡いたします。皆様のアイデアをお待ちしております。"
+    },
+    "info": {
+        "title": "連絡先情報",
+        "emailLabel": "メール",
+        "email": "devince1105@gmail.com",
+        "phoneLabel": "電話番号",
+        "phone": "+886 912 345 678",
+        "officeLabel": "所在地",
+        "addressLines": [
+            "台北市",
+            "Devince Studio"
+        ],
+        "followLabel": "フォローする"
+    },
+    "form": {
+        "nameLabel": "お名前",
+        "namePlaceholder": "お名前をご入力ください",
+        "emailLabel": "メールアドレス",
+        "emailPlaceholder": "your@email.com",
+        "companyLabel": "会社名",
+        "companyPlaceholder": "会社名をご入力ください",
+        "serviceLabel": "サービス内容",
+        "serviceOptions": [
+            "AI搭載ウェブシステム",
+            "3Dインタラクティブ体験",
+            "ブランドウェブサイト制作",
+            "カスタムデジタルプラットフォーム"
+        ],
+        "budgetLabel": "ご予算",
+        "budgetOptions": [
+            "50,000 NTD 未満",
+            "50,000 – 100,000 NTD",
+            "100,000 – 200,000 NTD",
+            "200,000 NTD 以上"
+        ],
+        "messageLabel": "メッセージ",
+        "messagePlaceholder": "プロジェクト内容をご記入ください...",
+        "buttonLabel": "送信する"
+    },
+    "map": {
+        "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.327496512063!2d121.517!3d25.047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a98f3b1b4b6f%3A0x1234567890abcdef!2sTaipei%20City!5e0!3m2!1sen!2stw!4v0000000000000"
+    }
+}

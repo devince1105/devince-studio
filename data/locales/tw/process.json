@@ -1,0 +1,81 @@
+{
+    "header": {
+        "eyebrow": "我們的流程",
+        "title": "我們如何運作",
+        "subtitle": "以結構化的方法，打造可擴展的數位解決方案。"
+    },
+    "steps": [
+        {
+            "title": "需求探索",
+            "description": "從深入了解您的願景、目標與目標受眾開始。",
+            "features": [
+                "利害關係人訪談",
+                "市場研究分析",
+                "專案範疇規劃"
+            ],
+            "duration": "2–3 週",
+            "imageSrc": "/images/process/discovery.jpg"
+        },
+        {
+            "title": "設計規劃",
+            "description": "打造符合品牌識別的直覺使用體驗。",
+            "features": [
+                "UX 使用者流程線框",
+                "視覺設計",
+                "互動原型製作"
+            ],
+            "duration": "3–4 週",
+            "imageSrc": "/images/process/design.jpg"
+        },
+        {
+            "title": "系統開發",
+            "description": "以乾淨且可擴展的程式碼，將設計完整實現。",
+            "features": [
+                "前端開發",
+                "後端整合",
+                "品質測試與驗證"
+            ],
+            "duration": "4–6 週",
+            "imageSrc": "/images/process/development.jpg"
+        },
+        {
+            "title": "交付上線",
+            "description": "正式上線並持續優化，支持產品長期成長。",
+            "features": [
+                "系統部署",
+                "效能優化",
+                "持續維護支援"
+            ],
+            "duration": "1–2 週",
+            "imageSrc": "/images/process/delivery.jpg"
+        }
+    ],
+    "values": {
+        "eyebrow": "我們的價值",
+        "title": "驅動我們前進的核心理念",
+        "items": [
+            {
+                "icon": "Lightbulb",
+                "title": "創新優先",
+                "description": "探索新興技術，提供具前瞻性的解決方案。"
+            },
+            {
+                "icon": "Heart",
+                "title": "以使用者為核心",
+                "description": "每一個決策都以使用者需求為出發點。"
+            },
+            {
+                "icon": "Star",
+                "title": "卓越品質",
+                "description": "在設計與工程上維持最高標準。"
+            }
+        ]
+    },
+    "cta": {
+        "title": "開啟您的專案旅程",
+        "highlight": "現在",
+        "description": "讓我們一起將您的想法轉化為具體成果。",
+        "buttonLabel": "聯絡我們",
+        "buttonHref": "/tw/contact"
+    }
+}

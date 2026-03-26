@@ -1,0 +1,45 @@
+{
+    "header": {
+        "eyebrow": "専門分野",
+        "title": "サービス",
+        "subtitle": "拡張性の高いデジタルシステムとインタラクティブ体験を構築します。"
+    },
+    "sections": [
+        {
+            "title": "AI搭載ウェブシステム",
+            "description": "AI技術を活用した高度なウェブプラットフォームを構築します。",
+            "features": [
+                "機械学習統合",
+                "自然言語処理システム",
+                "カスタムダッシュボード"
+            ],
+            "imageSrc": "/images/services/ai.jpg"
+        },
+        {
+            "title": "3Dインタラクティブ体験",
+            "description": "没入型の三次元ウェブ環境を提供します。",
+            "features": [
+                "WebGL開発",
+                "製品コンフィギュレーター",
+                "3Dアニメーション制作"
+            ],
+            "imageSrc": "/images/services/3d.jpg"
+        },
+        {
+            "title": "インタラクティブデザイン",
+            "description": "ユーザー中心の洗練されたインターフェース設計。",
+            "features": [
+                "UI / UXデザイン",
+                "マイクロインタラクション",
+                "デザインシステム構築"
+            ],
+            "imageSrc": "/images/services/ui.jpg"
+        }
+    ],
+    "contact": {
+        "title": "プロジェクトを始めましょう",
+        "description": "アイデアをお聞かせください。私たちが実現をサポートします。",
+        "buttonLabel": "お問い合わせ",
+        "buttonHref": "/jp/contact"
+    }
+}

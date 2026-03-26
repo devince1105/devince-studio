@@ -1,0 +1,48 @@
+{
+    "header": {
+        "eyebrow": "Get In Touch",
+        "title": "Let’s Create \n Something Great",
+        "subtitle": "Tell us about your project and we'll get back to you within 24 hours. We're excited to hear your ideas."
+    },
+    "info": {
+        "title": "Contact Information",
+        "emailLabel": "Email",
+        "email": "devince1105@gmail.com",
+        "phoneLabel": "Phone",
+        "phone": "+886 912 345 678",
+        "officeLabel": "Office",
+        "addressLines": [
+            "Taipei, Taiwan",
+            "Devince Studio"
+        ],
+        "followLabel": "Follow Us"
+    },
+    "form": {
+        "nameLabel": "Name",
+        "namePlaceholder": "Your name",
+        "emailLabel": "Email",
+        "emailPlaceholder": "your@email.com",
+        "companyLabel": "Company",
+        "companyPlaceholder": "Your company",
+        "serviceLabel": "Service",
+        "serviceOptions": [
+            "AI-Powered Web Systems",
+            "3D & Interactive Experiences",
+            "Brand & Creative Website",
+            "Custom Digital Platform"
+        ],
+        "budgetLabel": "Budget",
+        "budgetOptions": [
+            "Under NT$50,000",
+            "NT$50,000 – 100,000",
+            "NT$100,000 – 200,000",
+            "Above NT$200,000"
+        ],
+        "messageLabel": "Message",
+        "messagePlaceholder": "Tell us about your project...",
+        "buttonLabel": "Send Message"
+    },
+    "map": {
+        "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.327496512063!2d121.517!3d25.047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a98f3b1b4b6f%3A0x1234567890abcdef!2sTaipei%20City!5e0!3m2!1sen!2stw!4v0000000000000"
+    }
+}

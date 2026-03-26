@@ -1,0 +1,45 @@
+{
+    "header": {
+        "eyebrow": "專業領域",
+        "title": "服務項目",
+        "subtitle": "我們打造可擴展的數位系統與互動體驗。"
+    },
+    "sections": [
+        {
+            "title": "AI 智能網站系統",
+            "description": "運用人工智慧技術打造智慧化網站與平台。",
+            "features": [
+                "機器學習整合",
+                "自然語言處理系統",
+                "客製化儀表板"
+            ],
+            "imageSrc": "/images/services/ai.jpg"
+        },
+        {
+            "title": "3D 互動體驗",
+            "description": "沉浸式三維網頁互動環境設計。",
+            "features": [
+                "WebGL 開發",
+                "產品客製化配置器",
+                "3D 動畫製作"
+            ],
+            "imageSrc": "/images/services/3d.jpg"
+        },
+        {
+            "title": "互動設計",
+            "description": "以使用者為核心打造精緻介面體驗。",
+            "features": [
+                "UI / UX 設計",
+                "微互動設計",
+                "設計系統建構"
+            ],
+            "imageSrc": "/images/services/ui.jpg"
+        }
+    ],
+    "contact": {
+        "title": "開始您的專案",
+        "description": "與我們分享您的想法，我們將協助您實現。",
+        "buttonLabel": "聯絡我們",
+        "buttonHref": "/tw/contact"
+    }
+}

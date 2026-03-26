@@ -1,0 +1,81 @@
+{
+    "header": {
+        "eyebrow": "私たちのプロセス",
+        "title": "私たちの進め方",
+        "subtitle": "スケーラブルなデジタルソリューションを提供するための体系的なアプローチ。"
+    },
+    "steps": [
+        {
+            "title": "ディスカバリー",
+            "description": "ビジョン、目標、ターゲットユーザーを深く理解することから始めます。",
+            "features": [
+                "ステークホルダーインタビュー",
+                "市場調査",
+                "プロジェクトスコープ定義"
+            ],
+            "duration": "2〜3週間",
+            "imageSrc": "/images/process/discovery.jpg"
+        },
+        {
+            "title": "デザイン",
+            "description": "ブランドアイデンティティに沿った直感的な体験を設計します。",
+            "features": [
+                "UXワイヤーフレーム",
+                "ビジュアルデザイン",
+                "インタラクティブプロトタイピング"
+            ],
+            "duration": "3〜4週間",
+            "imageSrc": "/images/process/design.jpg"
+        },
+        {
+            "title": "開発",
+            "description": "クリーンで拡張性の高いコードでデザインを実装します。",
+            "features": [
+                "フロントエンド開発",
+                "バックエンド統合",
+                "品質保証"
+            ],
+            "duration": "4〜6週間",
+            "imageSrc": "/images/process/development.jpg"
+        },
+        {
+            "title": "リリース",
+            "description": "プロダクトを公開し、長期的な成長に向けて最適化します。",
+            "features": [
+                "デプロイ",
+                "パフォーマンス最適化",
+                "継続的サポート"
+            ],
+            "duration": "1〜2週間",
+            "imageSrc": "/images/process/delivery.jpg"
+        }
+    ],
+    "values": {
+        "eyebrow": "私たちの価値観",
+        "title": "私たちを支える理念",
+        "items": [
+            {
+                "icon": "Lightbulb",
+                "title": "イノベーション重視",
+                "description": "最先端技術を探求し、革新的なソリューションを提供します。"
+            },
+            {
+                "icon": "Heart",
+                "title": "ユーザー中心",
+                "description": "すべての意思決定はユーザーのニーズに基づいています。"
+            },
+            {
+                "icon": "Star",
+                "title": "卓越性",
+                "description": "デザインとエンジニアリングの両面で高い品質を維持します。"
+            }
+        ]
+    },
+    "cta": {
+        "title": "プロジェクトを始めましょう",
+        "highlight": "今すぐ",
+        "description": "あなたのビジョンを形にするお手伝いをします。",
+        "buttonLabel": "お問い合わせ",
+        "buttonHref": "/jp/contact"
+    }
+}

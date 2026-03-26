@@ -1,0 +1,14 @@
+{
+    "logo": "DEVINCE STUDIO",
+    "home": "首頁",
+    "services": "服務項目",
+    "case": "作品案例",
+    "process": "合作流程",
+    "about": "關於我們",
+    "contact": "聯絡我們",
+    "languages": {
+        "en": "EN",
+        "tw": "繁體中文",
+        "jp": "JP"
+    }
+}

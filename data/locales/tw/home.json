@@ -1,0 +1,72 @@
+{
+    "intro": {
+        "title": "打造 AI 驅動的 3D 數位體驗",
+        "subtitle": "我們將創意轉化為互動式數位現實",
+        "button": "查看作品 →"
+    },
+    "process": {
+        "eyebrow": "我們的流程",
+        "title": "我們如何運作",
+        "steps": [
+            {
+                "id": "01",
+                "title": "需求探索",
+                "desc": "深入了解您的願景、目標與目標受眾，明確定義專案範疇。",
+                "duration": "2–3 週"
+            },
+            {
+                "id": "02",
+                "title": "設計規劃",
+                "desc": "打造直覺且精緻的使用者體驗與視覺風格。",
+                "duration": "3–4 週"
+            },
+            {
+                "id": "03",
+                "title": "系統開發",
+                "desc": "以高效能與可擴展性為核心，實現穩定且乾淨的系統架構。",
+                "duration": "4–6 週"
+            },
+            {
+                "id": "04",
+                "title": "交付上線",
+                "desc": "正式上線並持續優化，確保產品長期穩定運作。",
+                "duration": "1–2 週"
+            }
+        ]
+    },
+    "services": {
+        "eyebrow": "服務",
+        "title": "我們的創造",
+        "items": [
+            {
+                "title": "AI Web Systems",
+                "description": "由機器學習驅動的智慧型 Web 應用程式。"
+            },
+            {
+                "title": "3D Experiences",
+                "description": "沉浸式三維 Web 環境。"
+            },
+            {
+                "title": "創意開發",
+                "description": "融合藝術與工程的客製化解決方案。"
+            },
+            {
+                "title": "互動設計",
+                "description": "精心打造的介面。"
+            }
+        ]
+    },
+    "pricing": {
+        "title": "方案價格",
+        "subtitle": "透明清晰的定價，為成長品牌打造。",
+        "cta": "立即開始 →"
+    },
+    "contact": {
+        "eyebrow": "讓我們一起創造",
+        "title": "開始您的",
+        "highlight": "下一個專案",
+        "description": "將您的願景轉化為互動式數位體驗",
+        "buttonLabel": "聯絡我們",
+        "buttonHref": "/en/contact"
+    }
+}

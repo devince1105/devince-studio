@@ -1,0 +1,15 @@
+{
+    "logo": "DEVINCE STUDIO",
+    "home": "ホーム",
+    "services": "サービス",
+    "case": "事例",
+    "process": "プロセス",
+    "about": "私たちについて",
+    "contact": "お問い合わせ",
+    "languageLabel": "言語",
+    "languages": {
+        "en": "EN",
+        "tw": "TW",
+        "jp": "JP"
+    }
+}

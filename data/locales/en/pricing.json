@@ -1,0 +1,41 @@
+[
+    {
+        "id": "corporate",
+        "title": "Corporate Website",
+        "price": "NT$48,000+",
+        "highlight": false,
+        "features": [
+            "5–8 custom designed pages",
+            "Responsive (Mobile / Tablet / Desktop)",
+            "CMS integration",
+            "Basic SEO setup",
+            "1 month technical support"
+        ]
+    },
+    {
+        "id": "brand",
+        "title": "Brand Website",
+        "price": "NT$78,000+",
+        "highlight": true,
+        "features": [
+            "Full brand visual identity integration",
+            "Advanced UI / UX design",
+            "Motion & interactive effects",
+            "Performance optimization",
+            "2 months technical support"
+        ]
+    },
+    {
+        "id": "custom",
+        "title": "Custom Web System",
+        "price": "NT$128,000+",
+        "highlight": false,
+        "features": [
+            "Full-stack architecture",
+            "Admin dashboard",
+            "API integration",
+            "Database design",
+            "3 months technical support"
+        ]
+    }
+]

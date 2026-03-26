@@ -1,0 +1,81 @@
+{
+    "header": {
+        "eyebrow": "Our Process",
+        "title": "How We Work",
+        "subtitle": "A structured approach to delivering scalable digital solutions."
+    },
+    "steps": [
+        {
+            "title": "Discovery",
+            "description": "We begin by understanding your vision, goals, and target audience.",
+            "features": [
+                "Stakeholder Interviews",
+                "Market Research",
+                "Project Scoping"
+            ],
+            "duration": "2–3 Weeks",
+            "imageSrc": "/images/process/discovery.jpg"
+        },
+        {
+            "title": "Design",
+            "description": "We craft intuitive experiences aligned with your brand identity.",
+            "features": [
+                "UX Wireframes",
+                "Visual Design",
+                "Interactive Prototyping"
+            ],
+            "duration": "3–4 Weeks",
+            "imageSrc": "/images/process/design.jpg"
+        },
+        {
+            "title": "Development",
+            "description": "Clean, scalable code bringing designs to life.",
+            "features": [
+                "Frontend Development",
+                "Backend Integration",
+                "Quality Assurance"
+            ],
+            "duration": "4–6 Weeks",
+            "imageSrc": "/images/process/development.jpg"
+        },
+        {
+            "title": "Delivery",
+            "description": "Launch and optimize your digital product for long-term growth.",
+            "features": [
+                "Deployment",
+                "Performance Optimization",
+                "Ongoing Support"
+            ],
+            "duration": "1–2 Weeks",
+            "imageSrc": "/images/process/delivery.jpg"
+        }
+    ],
+    "values": {
+        "eyebrow": "Our Values",
+        "title": "What Drives Us",
+        "items": [
+            {
+                "icon": "Lightbulb",
+                "title": "Innovation First",
+                "description": "We explore emerging technologies to deliver cutting-edge solutions."
+            },
+            {
+                "icon": "Heart",
+                "title": "User-Centered",
+                "description": "Every decision is guided by user needs."
+            },
+            {
+                "icon": "Star",
+                "title": "Excellence",
+                "description": "We maintain high standards in design and engineering."
+            }
+        ]
+    },
+    "cta": {
+        "title": "Begin Your Journey",
+        "highlight": "Today",
+        "description": "Let’s discuss how we can bring your vision to life.",
+        "buttonLabel": "Get in Touch",
+        "buttonHref": "/en/contact"
+    }
+}

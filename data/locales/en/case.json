@@ -1,0 +1,69 @@
+{
+    "header": {
+        "eyebrow": "Our Work",
+        "title": "Selected Case Studies",
+        "subtitle": "Explore the innovative digital experiences we have built."
+    },
+    "filters": [
+        "All Work",
+        "AI Systems",
+        "3D Web",
+        "Interactive Design"
+    ],
+    "projects": [
+        {
+            "title": "Neural Network Analytics Platform",
+            "description": "Real-time AI data visualization system for enterprise clients",
+            "category": "AI Systems",
+            "imageSrc": "",
+            "year": "2024",
+            "tags": [
+                "AI Systems",
+                "Data Visualization",
+                "Enterprise Solution"
+            ]
+        },
+        {
+            "title": "Immersive Product Showcase",
+            "description": "Interactive 3D product exploration experience",
+            "category": "3D Web",
+            "imageSrc": "",
+            "year": "2024",
+            "tags": [
+                "3D Web",
+                "Product Showcase",
+                "Interactive Design"
+            ]
+        },
+        {
+            "title": "Intelligent Customer Service System",
+            "description": "AI-powered customer service solution with NLP integration",
+            "category": "AI Systems",
+            "imageSrc": "",
+            "year": "2024",
+            "tags": [
+                "AI Systems",
+                "Natural Language Processing",
+                "Customer Service"
+            ]
+        },
+        {
+            "title": "Virtual Exhibition Space",
+            "description": "Immersive 3D exhibition platform designed for artists",
+            "category": "3D Web",
+            "imageSrc": "",
+            "year": "2024",
+            "tags": [
+                "3D Web",
+                "Virtual Exhibition",
+                "Art Showcase"
+            ]
+        }
+    ],
+    "contact": {
+        "title": "Let’s Build Your Brand Story",
+        "description": "We are ready to help you create exceptional digital experiences.",
+        "buttonLabel": "Start a Project",
+        "buttonHref": "/en/contact"
+    }
+}

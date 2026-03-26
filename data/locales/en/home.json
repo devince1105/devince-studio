@@ -1,0 +1,72 @@
+{
+    "intro": {
+        "title": "Crafting Digital AI-powered Experiences with 3D Innovation",
+        "subtitle": "We transform ideas into interactive digital realities",
+        "button": "Explore Work →"
+    },
+    "process": {
+        "eyebrow": "Our Process",
+        "title": "How We Work",
+        "steps": [
+            {
+                "id": "01",
+                "title": "Discovery",
+                "desc": "We deeply understand your vision, goals, and audience to define the project scope.",
+                "duration": "2–3 Weeks"
+            },
+            {
+                "id": "02",
+                "title": "Design",
+                "desc": "Crafting intuitive user experiences and refined visual aesthetics.",
+                "duration": "3–4 Weeks"
+            },
+            {
+                "id": "03",
+                "title": "Development",
+                "desc": "Clean, scalable implementation with performance in mind.",
+                "duration": "4–6 Weeks"
+            },
+            {
+                "id": "04",
+                "title": "Delivery",
+                "desc": "Launch, optimize, and ensure long-term stability.",
+                "duration": "1–2 Weeks"
+            }
+        ]
+    },
+    "services": {
+        "eyebrow": "Services",
+        "title": "What We Create",
+        "items": [
+            {
+                "title": "AI Web Systems",
+                "description": "Intelligent web applications powered by machine learning."
+            },
+            {
+                "title": "3D Experiences",
+                "description": "Immersive three-dimensional web environments."
+            },
+            {
+                "title": "Creative Development",
+                "description": "Custom-coded solutions blending art and engineering."
+            },
+            {
+                "title": "Interactive Design",
+                "description": "Thoughtfully crafted interfaces."
+            }
+        ]
+    },
+    "pricing": {
+        "title": "Investment",
+        "subtitle": "Transparent pricing designed for growing brands.",
+        "cta": "Get Started →"
+    },
+    "contact": {
+        "eyebrow": "Let’s Create Together",
+        "title": "Start Your",
+        "highlight": "Next Project",
+        "description": "Transform your vision into interactive digital experiences",
+        "buttonLabel": "Get In Touch",
+        "buttonHref": "/en/contact"
+    }
+}

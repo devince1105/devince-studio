@@ -1,0 +1,67 @@
+{
+    "header": {
+        "eyebrow": "Who We Are",
+        "title": "Creative Minds\nTechnical Hearts",
+        "subtitle": "We are a collective of designers, developers, and innovators passionate about pushing the boundaries of what's possible on the web."
+    },
+    "story": {
+        "eyebrow": "Our Story",
+        "title": "Founded on Innovation",
+        "paragraphs": [
+            "Established in 2020, our studio emerged from a shared vision to merge artificial intelligence with creative design.",
+            "Today, we work with forward-thinking brands and startups worldwide, helping them leverage AI and 3D technologies."
+        ],
+        "imageSrc": "/images/about/team-working.jpg"
+    },
+    "values": {
+        "eyebrow": "What Drives Us",
+        "title": "Our Values",
+        "items": [
+            {
+                "icon": "Lightbulb",
+                "title": "Innovation",
+                "description": "We constantly explore emerging technologies and creative approaches."
+            },
+            {
+                "icon": "Users",
+                "title": "Collaboration",
+                "description": "We believe the best work comes from true partnership."
+            },
+            {
+                "icon": "Star",
+                "title": "Excellence",
+                "description": "Quality is non-negotiable in everything we create."
+            }
+        ]
+    },
+    "team": {
+        "eyebrow": "Meet the Team",
+        "title": "Creative Experts"
+    },
+    "stats": [
+        {
+            "value": "50+",
+            "label": "Projects Delivered"
+        },
+        {
+            "value": "30+",
+            "label": "Happy Clients"
+        },
+        {
+            "value": "15",
+            "label": "Team Members"
+        },
+        {
+            "value": "4",
+            "label": "Years Experience"
+        }
+    ],
+    "contact": {
+        "eyebrow": "Join Us",
+        "title": "Work With",
+        "highlight": "Our Team",
+        "description": "Let's create something extraordinary together.",
+        "buttonLabel": "Get In Touch",
+        "buttonHref": "/en/contact"
+    }
+}

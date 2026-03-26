@@ -1,0 +1,45 @@
+{
+    "header": {
+        "eyebrow": "Our Expertise",
+        "title": "Services",
+        "subtitle": "We build scalable digital systems and interactive experiences."
+    },
+    "sections": [
+        {
+            "title": "AI Web Systems",
+            "description": "Intelligent web platforms powered by AI technologies.",
+            "features": [
+                "Machine Learning Integration",
+                "NLP Systems",
+                "Custom Dashboards"
+            ],
+            "imageSrc": "/images/services/ai.jpg"
+        },
+        {
+            "title": "3D Experiences",
+            "description": "Immersive three-dimensional web environments.",
+            "features": [
+                "WebGL Development",
+                "Product Configurators",
+                "3D Animation"
+            ],
+            "imageSrc": "/images/services/3d.jpg"
+        },
+        {
+            "title": "Interactive Design",
+            "description": "Thoughtfully crafted user interfaces.",
+            "features": [
+                "UI/UX Design",
+                "Micro-interactions",
+                "Design Systems"
+            ],
+            "imageSrc": "/images/services/ui.jpg"
+        }
+    ],
+    "contact": {
+        "title": "Start Your Project",
+        "description": "Tell us about your idea and we will assist you.",
+        "buttonLabel": "Contact Us",
+        "buttonHref": "/en/contact"
+    }
+}

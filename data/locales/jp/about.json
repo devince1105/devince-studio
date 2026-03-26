@@ -1,0 +1,67 @@
+{
+    "header": {
+        "eyebrow": "私たちについて",
+        "title": "Creative Minds\nTechnical Hearts",
+        "subtitle": "私たちは、デザイナー・開発者・イノベーターからなるチームとして、デジタルの可能性を追求しています。"
+    },
+    "story": {
+        "eyebrow": "私たちのストーリー",
+        "title": "イノベーションから始まる",
+        "paragraphs": [
+            "2020年に設立された私たちのスタジオは、人工知能とクリエイティブデザインを融合するという共通のビジョンから生まれました。",
+            "現在では、世界中の先進的なブランドやスタートアップと協働し、AIと3D技術を活用したデジタル体験を創造しています。"
+        ],
+        "imageSrc": "/images/about/team-working.jpg"
+    },
+    "values": {
+        "eyebrow": "私たちの価値観",
+        "title": "Our Values",
+        "items": [
+            {
+                "icon": "Lightbulb",
+                "title": "イノベーション",
+                "description": "常に最新技術と創造的アプローチを探求し、新たな基準を打ち立てるソリューションを提供します。"
+            },
+            {
+                "icon": "Users",
+                "title": "コラボレーション",
+                "description": "真のパートナーシップこそが最高の成果を生むと信じ、クライアントと共に歩みます。"
+            },
+            {
+                "icon": "Star",
+                "title": "卓越性",
+                "description": "コードの一行から最終的なビジュアルまで、すべてにおいて高い品質基準を守ります。"
+            }
+        ]
+    },
+    "team": {
+        "eyebrow": "チーム紹介",
+        "title": "Creative Experts"
+    },
+    "stats": [
+        {
+            "value": "50+",
+            "label": "完了プロジェクト"
+        },
+        {
+            "value": "30+",
+            "label": "クライアント数"
+        },
+        {
+            "value": "15",
+            "label": "チームメンバー"
+        },
+        {
+            "value": "4",
+            "label": "経験年数"
+        }
+    ],
+    "contact": {
+        "eyebrow": "ご一緒に",
+        "title": "私たちと",
+        "highlight": "働きませんか",
+        "description": "共に特別なデジタル体験を創りましょう。",
+        "buttonLabel": "お問い合わせ",
+        "buttonHref": "/jp/contact"
+    }
+}

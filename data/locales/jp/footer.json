@@ -1,0 +1,74 @@
+{
+    "brand": {
+        "name": "Devince Studio",
+        "description": "Devince Studio builds scalable web systems and digital platforms engineered for long-term growth."
+    },
+    "social": [
+        {
+            "label": "Twitter",
+            "href": "#"
+        },
+        {
+            "label": "LinkedIn",
+            "href": "#"
+        },
+        {
+            "label": "Instagram",
+            "href": "#"
+        }
+    ],
+    "sections": {
+        "services": {
+            "title": "Services",
+            "items": [
+                {
+                    "label": "Corporate Website",
+                    "href": "#"
+                },
+                {
+                    "label": "Brand Website",
+                    "href": "#"
+                },
+                {
+                    "label": "Custom Web System",
+                    "href": "#"
+                }
+            ]
+        },
+        "company": {
+            "title": "Company",
+            "items": [
+                {
+                    "label": "About",
+                    "href": "#"
+                },
+                {
+                    "label": "Work",
+                    "href": "#"
+                },
+                {
+                    "label": "Process",
+                    "href": "#"
+                }
+            ]
+        },
+        "connect": {
+            "title": "Connect",
+            "items": [
+                {
+                    "label": "Contact",
+                    "href": "#"
+                },
+                {
+                    "label": "Email",
+                    "href": "#"
+                }
+            ]
+        }
+    },
+    "legal": {
+        "copyright": "All rights reserved.",
+        "privacy": "Privacy",
+        "terms": "Terms"
+    }
+}

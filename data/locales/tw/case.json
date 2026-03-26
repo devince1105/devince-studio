@@ -1,0 +1,54 @@
+{
+    "header": {
+        "eyebrow": "我們的作品",
+        "title": "精選案例",
+        "subtitle": "探索我們打造的創新數位體驗作品。"
+    },
+    "filters": [
+        "全部作品",
+        "AI 系統",
+        "3D 網頁",
+        "互動設計"
+    ],
+    "projects": [
+        {
+            "title": "神經網路分析平台",
+            "description": "為企業客戶打造的即時 AI 數據視覺化系統",
+            "category": "AI 系統",
+            "imageSrc": "",
+            "year": "2024",
+            "tags": ["AI 系統", "數據視覺化", "企業解決方案"]
+        },
+        {
+            "title": "沉浸式產品展示",
+            "description": "互動式 3D 產品探索體驗",
+            "category": "3D 網頁",
+            "imageSrc": "",
+            "year": "2024",
+            "tags": ["3D 網頁", "產品展示", "互動設計"]
+        },
+        {
+            "title": "智慧客服系統",
+            "description": "結合自然語言處理的 AI 客服解決方案",
+            "category": "AI 系統",
+            "imageSrc": "",
+            "year": "2024",
+            "tags": ["AI 系統", "自然語言處理", "客服解決方案"]
+        },
+        {
+            "title": "虛擬展覽空間",
+            "description": "為藝術家打造的沉浸式 3D 展覽平台",
+            "category": "3D 網頁",
+            "imageSrc": "",
+            "year": "2024",
+            "tags": ["3D 網頁", "虛擬展覽", "藝術展示"]
+        }
+        
+    ],
+    "contact": {
+        "title": "一起打造您的品牌故事",
+        "description": "我們準備好協助您創造卓越的數位體驗。",
+        "buttonLabel": "開始專案",
+        "buttonHref": "/tw/contact"
+    }
+}
