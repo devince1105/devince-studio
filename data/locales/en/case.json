@@ -1,69 +1,77 @@
 {
     "header": {
-        "eyebrow": "Our Work",
-        "title": "Selected Case Studies",
-        "subtitle": "Explore the innovative digital experiences we have built."
+        "eyebrow": "Portfolio",
+        "title": "Featured Projects",
+        "subtitle": "These are digital products and interactive experiences we have built."
     },
     "filters": [
-        "All Work",
-        "AI Systems",
+        "All",
+        "Web Applications",
         "3D Web",
-        "Interactive Design"
+        "Interactive Experience"
     ],
     "projects": [
         {
-            "title": "Neural Network Analytics Platform",
-            "description": "Real-time AI data visualization system for enterprise clients",
-            "category": "AI Systems",
-            "imageSrc": "",
-            "year": "2024",
+            "title": "E-commerce Platform",
+            "description": "A complete e-commerce system including product management, shopping cart, order processing, and payment integration.",
+            "category": "Web Applications",
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/next-shop-cover.png",
+            "year": "2026",
             "tags": [
-                "AI Systems",
-                "Data Visualization",
-                "Enterprise Solution"
-            ]
+                "Next.js",
+                "Spring Boot",
+                "Stripe",
+                "E-commerce"
+            ],
+            "demoUrl": "https://next-shop-three-psi.vercel.app/products"
         },
         {
-            "title": "Immersive Product Showcase",
-            "description": "Interactive 3D product exploration experience",
-            "category": "3D Web",
-            "imageSrc": "",
-            "year": "2024",
+            "title": "Knowledge Content Platform",
+            "description": "A GitBook-like content platform supporting MDX, structured chapters, and static deployment.",
+            "category": "Web Applications",
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/next-book-cover.png",
+            "year": "2026",
             "tags": [
-                "3D Web",
+                "Next.js",
+                "MDX",
+                "Content Management",
+                "Static Site"
+            ],
+            "demoUrl": "https://vince115.github.io/next-book/"
+        },
+        {
+            "title": "Interactive Fortune Drawing Website",
+            "description": "An immersive experience combining animation and interactive flow to enhance user engagement.",
+            "category": "Interactive Experience",
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/temple-oracle-cover-1.png",
+            "year": "2026",
+            "tags": [
+                "Next.js",
+                "Animation",
+                "UI/UX",
+                "Gamification"
+            ],
+            "demoUrl": "https://temple-oracle.vercel.app"
+        },
+        {
+            "title": "3D Product Showcase Landing Page",
+            "description": "Interactive 3D presentation built with Three.js to enhance product visualization.",
+            "category": "3D Web",
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/pumpkin-3d-cover.png",
+            "year": "2026",
+            "tags": [
+                "Three.js",
+                "3D",
                 "Product Showcase",
                 "Interactive Design"
-            ]
-        },
-        {
-            "title": "Intelligent Customer Service System",
-            "description": "AI-powered customer service solution with NLP integration",
-            "category": "AI Systems",
-            "imageSrc": "",
-            "year": "2024",
-            "tags": [
-                "AI Systems",
-                "Natural Language Processing",
-                "Customer Service"
-            ]
-        },
-        {
-            "title": "Virtual Exhibition Space",
-            "description": "Immersive 3D exhibition platform designed for artists",
-            "category": "3D Web",
-            "imageSrc": "",
-            "year": "2024",
-            "tags": [
-                "3D Web",
-                "Virtual Exhibition",
-                "Art Showcase"
-            ]
+            ],
+            "demoUrl": "https://vince115.github.io/pumpkin-3d/"
         }
     ],
     "contact": {
-        "title": "Let’s Build Your Brand Story",
-        "description": "We are ready to help you create exceptional digital experiences.",
-        "buttonLabel": "Start a Project",
+        "title": "Let’s Build Your Project",
+        "description": "Whether it's a website, system, or interactive experience, we can help bring it to life.",
+        "buttonLabel": "Contact Us",
         "buttonHref": "/en/contact"
     }
 }

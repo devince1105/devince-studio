@@ -1,53 +1,77 @@
 {
     "header": {
-        "eyebrow": "実績紹介",
-        "title": "厳選事例",
-        "subtitle": "私たちが創り上げた革新的なデジタル体験をご覧ください。"
+        "eyebrow": "制作実績",
+        "title": "注目プロジェクト",
+        "subtitle": "これまでに開発したデジタルプロダクトとインタラクティブ体験をご紹介します。"
     },
     "filters": [
         "すべて",
-        "AIシステム",
-        "3Dウェブ",
-        "インタラクティブデザイン"
+        "Webアプリ",
+        "3D Web",
+        "インタラクティブ体験"
     ],
     "projects": [
         {
-            "title": "ニューラルネットワーク分析プラットフォーム",
-            "description": "企業向けリアルタイムAIデータ可視化システム",
-            "category": "AIシステム",
-            "imageSrc": "",
-            "year": "2024",
-            "tags": ["AIシステム", "データ可視化", "エンタープライズ"]
+            "title": "ECプラットフォーム",
+            "description": "商品管理、カート、注文処理、決済連携を含むフル機能のECシステム。",
+            "category": "Webアプリ",
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/next-shop-cover.png",
+            "year": "2026",
+            "tags": [
+                "Next.js",
+                "Spring Boot",
+                "Stripe",
+                "ECサイト"
+            ],
+            "demoUrl": "https://next-shop-three-psi.vercel.app/products"
         },
         {
-            "title": "没入型プロダクトショーケース",
-            "description": "インタラクティブな3D製品体験",
-            "category": "3Dウェブ",
-            "imageSrc": "",
-            "year": "2024",
-            "tags": ["3Dウェブ", "製品展示", "インタラクティブ"]
+            "title": "ナレッジコンテンツプラットフォーム",
+            "description": "GitBookのような構造を持つコンテンツプラットフォーム。MDX対応、章構成、静的デプロイが可能。",
+            "category": "Webアプリ",
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/next-book-cover.png",
+            "year": "2026",
+            "tags": [
+                "Next.js",
+                "MDX",
+                "コンテンツ管理",
+                "静的サイト"
+            ],
+            "demoUrl": "https://vince115.github.io/next-book/"
         },
         {
-            "title": "インテリジェント顧客対応システム",
-            "description": "自然言語処理を活用したAIカスタマーサポート",
-            "category": "AIシステム",
-            "imageSrc": "",
-            "year": "2024",
-            "tags": ["AIシステム", "自然言語処理", "カスタマーサポート"]
+            "title": "オンラインおみくじ体験サイト",
+            "description": "アニメーションとインタラクションを組み合わせた没入型の体験サイト。",
+            "category": "インタラクティブ体験",
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/temple-oracle-cover-1.png",
+            "year": "2026",
+            "tags": [
+                "Next.js",
+                "アニメーション",
+                "UI/UX",
+                "ゲーミフィケーション"
+            ],
+            "demoUrl": "https://temple-oracle.vercel.app"
         },
         {
-            "title": "バーチャル展示空間",
-            "description": "アーティスト向け没入型3D展示プラットフォーム",
-            "category": "3Dウェブ",
-            "imageSrc": "",
-            "year": "2024",
-            "tags": ["3Dウェブ", "バーチャル展示", "アート体験"]
+            "title": "3Dプロダクト展示ページ",
+            "description": "Three.jsを活用したインタラクティブな3D表現で、製品の魅力を高めるランディングページ。",
+            "category": "3D Web",
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/pumpkin-3d-cover.png",
+            "year": "2026",
+            "tags": [
+                "Three.js",
+                "3D",
+                "製品展示",
+                "インタラクション設計"
+            ],
+            "demoUrl": "https://vince115.github.io/pumpkin-3d/"
         }
     ],
     "contact": {
-        "title": "あなたのブランドストーリーを共に創りましょう",
-        "description": "卓越したデジタル体験の創造をお手伝いします。",
-        "buttonLabel": "プロジェクト開始",
+        "title": "プロジェクトを一緒に作りましょう",
+        "description": "Webサイト、システム、インタラクティブ体験まで、幅広く対応可能です。",
+        "buttonLabel": "お問い合わせ",
         "buttonHref": "/jp/contact"
     }
 }

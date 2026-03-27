@@ -44,7 +44,7 @@
             "description": "結合動畫與互動流程的沉浸式體驗網站，提升使用者參與感。",
             "category": "互動體驗",
             "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/temple-oracle-cover-1.png",
-            "year": "2024",
+            "year": "2026",
             "tags": [
                 "Next.js",
                 "動畫互動",
@@ -54,18 +54,18 @@
             "demoUrl": "https://temple-oracle.vercel.app"
         },
         {
-            "title": "3D 產品展示頁",
+            "title": "一頁式 3D 產品展示頁",
             "description": "使用 Three.js 建立互動式 3D 展示，提升產品呈現效果。",
             "category": "3D 網頁",
-            "imageSrc": "/images/cases/3d-demo.jpg",
-            "year": "2024",
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/pumpkin-3d-cover.png",
+            "year": "2026",
             "tags": [
                 "Three.js",
                 "3D",
                 "產品展示",
                 "互動設計"
             ],
-            "demoUrl": "https://3d-demo.vercel.app"
+            "demoUrl": "https://vince115.github.io/pumpkin-3d/"
         }
     ],
     "contact": {
