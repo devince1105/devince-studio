@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 
 interface PricingStageProps {
     data: {
@@ -12,6 +12,18 @@ interface PricingStageProps {
 
 export default function PricingStage({ data, pricingData }: PricingStageProps) {
     const [activeIndex, setActiveIndex] = useState(2);
+    const [mousePos, setMousePos] = useState({ x: 0, y: 0, cardIndex: -1 });
+
+    const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>, index: number) => {
+        const rect = e.currentTarget.getBoundingClientRect();
+        const x = (e.clientX - rect.left) / rect.width - 0.5;
+        const y = (e.clientY - rect.top) / rect.height - 0.5;
+        setMousePos({ x, y, cardIndex: index });
+    };
+
+    const handleMouseLeave = () => {
+        setMousePos({ x: 0, y: 0, cardIndex: -1 });
+    };
 
     return (
         <section id="pricing" className="py-40 px-6 bg-background transition-colors duration-300 overflow-hidden">
@@ -28,30 +40,29 @@ export default function PricingStage({ data, pricingData }: PricingStageProps) {
                 <div className="relative h-[650px] flex items-center justify-center [perspective:1200px] mt-10">
                     {pricingData.map((plan: any, index: number) => {
                         const isActive = index === activeIndex;
+                        const isHovered = mousePos.cardIndex === index;
                         const diff = index - activeIndex;
                         
-                        let rotateY = 0;
+                        let rotateYBase = 0;
                         let translateX = 0;
                         let zIndex = 10;
                         let opacity = 1;
                         let scale = 0.95;
 
                         if (isActive) {
-                            rotateY = 0;
+                            rotateYBase = 0;
                             translateX = 0;
                             zIndex = 100;
                             opacity = 1;
                             scale = 1.1;
                         } else {
-                            // High precision fanning offsets
-                            const baseGap = 240; // Default gap
-                            rotateY = diff > 0 ? -25 : 25;
+                            const baseGap = 240;
+                            rotateYBase = diff > 0 ? -25 : 25;
                             
-                            // Adjusting translateX for specific indices
                             if (index === 0) {
-                                translateX = diff * 210 - 20; // Bring Landing closer
+                                translateX = diff * 210 - 20;
                             } else if (index === 1) {
-                                translateX = diff * 220; // Bring Corporate closer
+                                translateX = diff * 220;
                             } else {
                                 translateX = diff * baseGap;
                             }
@@ -61,32 +72,64 @@ export default function PricingStage({ data, pricingData }: PricingStageProps) {
                             scale = 0.9;
                         }
 
-                        if (index === 0 && !isActive) {
-                            opacity = 0.4;
-                        }
+                        // CodePen Spark: Mouse Tilt Logic
+                        const tiltX = isHovered ? mousePos.y * -20 : 0;
+                        const tiltY = isHovered ? mousePos.x * 20 : 0;
+                        const innerTranslateX = isHovered ? mousePos.x * -15 : 0;
+                        const innerTranslateY = isHovered ? mousePos.y * -15 : 0;
 
                         return (
                             <div
                                 key={plan.id}
                                 onClick={() => setActiveIndex(index)}
-                                className={`absolute w-[320px] h-[540px] rounded-[2.5rem] transition-all duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] cursor-pointer group
+                                onMouseMove={(e) => handleMouseMove(e, index)}
+                                onMouseLeave={handleMouseLeave}
+                                className={`absolute w-[320px] h-[540px] rounded-[2.5rem] transition-all duration-700 ease-[cubic-bezier(0.23,1,0.32,1)] cursor-pointer group overflow-hidden
                                     ${plan.highlight 
-                                        ? "bg-teal-600 dark:bg-teal-700 text-white shadow-[0_40px_80px_-15px_rgba(13,148,136,0.2)] border border-teal-400/30" 
-                                        : "bg-white dark:bg-zinc-950 text-gray-900 dark:text-zinc-100 shadow-[0_40px_80px_-12px_rgba(0,0,0,0.12)] border border-neutral-100 dark:border-zinc-800"
+                                        ? "bg-teal-600 dark:bg-teal-700 text-white border border-teal-400/30" 
+                                        : "bg-white dark:bg-zinc-950 text-gray-900 dark:text-zinc-100 border border-neutral-100 dark:border-zinc-800"
                                     }
                                     ${isActive 
-                                        ? plan.highlight ? "shadow-[0_40px_80px_-15px_rgba(13,148,136,0.4)] scale(1.1)" : "shadow-[0_40px_80px_-12px_rgba(0,0,0,0.18)]"
+                                        ? "shadow-[0_40px_100px_rgba(0,0,0,0.25)] dark:shadow-[0_40px_100px_rgba(0,0,0,0.6)]" 
                                         : "grayscale-[0.4] opacity-60"
                                     }
-                                    ${!isActive && "hover:opacity-85 hover:scale-[0.92] hover:grayscale-0"}
+                                    ${isHovered ? "z-[110]" : ""}
                                 `}
                                 style={{
-                                    transform: `translateX(${translateX}px) rotateY(${rotateY}deg) scale(${scale})`,
-                                    zIndex: zIndex,
-                                    opacity: isActive ? 1 : opacity
+                                    transform: `translateX(${translateX}px) rotateY(${rotateYBase + (isHovered ? mousePos.x * 40 : 0)}deg) rotateX(${isHovered ? mousePos.y * -40 : 0}deg) scale(${isHovered ? scale * 1.05 : scale})`,
+                                    zIndex: isHovered ? 200 : zIndex,
+                                    opacity: isActive ? 1 : opacity,
+                                    transformStyle: "preserve-3d"
                                 }}
                             >
-                                <div className="p-10 h-full flex flex-col items-center text-center">
+                                {/* ✨ Shiny Spotlight Border Effect */}
+                                {isHovered && (
+                                    <div 
+                                        className="absolute inset-0 pointer-events-none z-50 opacity-100 transition-opacity duration-300"
+                                        style={{
+                                            background: `radial-gradient(1000px circle at ${mousePos.x * 320 + 160}px ${mousePos.y * 540 + 270}px, rgba(45, 212, 191, 0.4), transparent 30%)`,
+                                            mixBlendMode: 'overlay'
+                                        }}
+                                    />
+                                )}
+                                
+                                {isHovered && (
+                                    <div 
+                                        className="absolute inset-0 z-40 rounded-[2.5rem] border-[2px] border-white/40 pointer-events-none opacity-50"
+                                        style={{
+                                            maskImage: `radial-gradient(circle at ${mousePos.x * 320 + 160}px ${mousePos.y * 540 + 270}px, black 0%, transparent 60%)`,
+                                            WebkitMaskImage: `radial-gradient(circle at ${mousePos.x * 320 + 160}px ${mousePos.y * 540 + 270}px, black 0%, transparent 60%)`,
+                                        }}
+                                    />
+                                )}
+
+                                {/* The "Parallax" content layer */}
+                                <div 
+                                    className="p-10 h-full flex flex-col items-center text-center transition-transform duration-700 ease-[cubic-bezier(0.23,1,0.32,1)]"
+                                    style={{
+                                        transform: `translateX(${innerTranslateX}px) translateY(${innerTranslateY}px) translateZ(80px)`
+                                    }}
+                                >
                                     <h3 className={`text-2xl font-medium mb-1 ${plan.highlight ? "text-white" : "text-gray-900 dark:text-zinc-100"}`}>
                                         {plan.title}
                                     </h3>
