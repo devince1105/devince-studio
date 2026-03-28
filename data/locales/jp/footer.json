@@ -23,15 +23,15 @@
             "items": [
                 {
                     "label": "Corporate Website",
-                    "href": "#"
+                    "href": "/services"
                 },
                 {
                     "label": "Brand Website",
-                    "href": "#"
+                    "href": "/services"
                 },
                 {
                     "label": "Custom Web System",
-                    "href": "#"
+                    "href": "/services"
                 }
             ]
         },
@@ -40,15 +40,15 @@
             "items": [
                 {
                     "label": "About",
-                    "href": "#"
+                    "href": "/about"
                 },
                 {
                     "label": "Work",
-                    "href": "#"
+                    "href": "/case"
                 },
                 {
                     "label": "Process",
-                    "href": "#"
+                    "href": "/process"
                 }
             ]
         },
@@ -57,11 +57,11 @@
             "items": [
                 {
                     "label": "Contact",
-                    "href": "#"
+                    "href": "/contact"
                 },
                 {
                     "label": "Email",
-                    "href": "#"
+                    "href": "mailto:hello@devince.studio"
                 }
             ]
         }

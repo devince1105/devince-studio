@@ -46,31 +46,31 @@ export default function ProcessStep({
 
                 {/* Content */}
                 <div className={reverse ? "md:order-3" : "md:order-2"}>
-                    <h3 className="text-4xl font-serif">{title}</h3>
+                    <h3 className="text-4xl font-serif text-gray-900 dark:text-zinc-100">{title}</h3>
 
-                    <p className="mt-4 text-gray-600 leading-relaxed max-w-xl">
+                    <p className="mt-4 text-gray-600 dark:text-zinc-400 leading-relaxed max-w-xl">
                         {description}
                     </p>
 
                     {bullets.length > 0 && (
                         <ul className="mt-8 space-y-4">
                             {bullets.map((b, i) => (
-                                <li key={i} className="flex items-start gap-3">
+                                <li key={i} className="flex items-start gap-4">
                                     {/* icon */}
-                                    <div className="mt-0">
-                                        <div className="w-5 h-5 rounded-full border border-gray-400 flex items-center justify-center">
-                                            <Check className="w-3 h-3 text-gray-700" />
+                                    <div className="mt-1">
+                                        <div className="w-5 h-5 rounded-full border border-gray-300 dark:border-zinc-700 flex items-center justify-center bg-gray-50 dark:bg-zinc-900">
+                                            <Check className="w-3 h-3 text-teal-600 dark:text-teal-400" />
                                         </div>
                                     </div>
 
                                     {/* text */}
                                     <div>
-                                        <p className="font-medium text-gray-900">
+                                        <p className="font-medium text-gray-900 dark:text-zinc-100">
                                             {b.title}
                                         </p>
 
                                         {b.description && (
-                                            <p className="text-sm text-gray-500 mt-1">
+                                            <p className="text-sm text-gray-500 dark:text-zinc-500 mt-1">
                                                 {b.description}
                                             </p>
                                         )}
@@ -81,7 +81,7 @@ export default function ProcessStep({
                     )}
 
                     {duration && (
-                        <div className="mt-8 inline-flex px-4 py-2 rounded-full bg-gray-100 text-xs tracking-wide text-gray-600">
+                        <div className="mt-8 inline-flex px-4 py-2 rounded-full bg-gray-100 dark:bg-zinc-900 text-xs tracking-wide text-gray-600 dark:text-zinc-400 transition-colors">
                             {duration}
                         </div>
                     )}
@@ -89,7 +89,7 @@ export default function ProcessStep({
 
                 {/* Image */}
                 <div className={reverse ? "md:order-2" : "md:order-3"}>
-                    <div className="relative w-full h-96 rounded-xl overflow-hidden bg-gray-100">
+                    <div className="relative w-full h-96 rounded-xl overflow-hidden bg-gray-100 dark:bg-zinc-900">
                         {showImage ? (
                             <Image
                                 src={imageSrc!}
@@ -99,8 +99,8 @@ export default function ProcessStep({
                                 onError={() => setImgError(true)}
                             />
                         ) : (
-                            <div className="w-full h-full bg-gray-200 flex items-center justify-center">
-                                <span className="text-gray-400 text-sm">No Image</span>
+                            <div className="w-full h-full bg-gray-200 dark:bg-zinc-800 flex items-center justify-center">
+                                <span className="text-gray-400 dark:text-zinc-600 text-sm">No Image</span>
                             </div>
                         )}
                     </div>

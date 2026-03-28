@@ -23,15 +23,15 @@
             "items": [
                 {
                     "label": "企業形象網站",
-                    "href": "#"
+                    "href": "/services"
                 },
                 {
                     "label": "品牌網站",
-                    "href": "#"
+                    "href": "/services"
                 },
                 {
                     "label": "客製化網站系統",
-                    "href": "#"
+                    "href": "/services"
                 }
             ]
         },
@@ -40,15 +40,15 @@
             "items": [
                 {
                     "label": "關於我們",
-                    "href": "#"
+                    "href": "/about"
                 },
                 {
                     "label": "作品案例",
-                    "href": "#"
+                    "href": "/case"
                 },
                 {
                     "label": "合作流程",
-                    "href": "#"
+                    "href": "/process"
                 }
             ]
         },
@@ -57,11 +57,11 @@
             "items": [
                 {
                     "label": "聯絡我們",
-                    "href": "#"
+                    "href": "/contact"
                 },
                 {
                     "label": "Email",
-                    "href": "#"
+                    "href": "mailto:hello@devince.studio"
                 }
             ]
         }

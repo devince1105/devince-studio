@@ -30,7 +30,7 @@ export default async function LocaleLayout({
   return (
     <>
       <Navbar locale={safeLocale} data={navbarData} />
-      <main className="bg-white text-black">
+      <main className="bg-background text-foreground transition-colors duration-300">
 
         {children}
 

@@ -9,15 +9,15 @@ interface AboutStatsProps {
 
 export default function AboutStats({ data }: AboutStatsProps) {
     return (
-        <section className="py-24 bg-gray-100">
-            <div className="container mx-auto px-6 grid md:grid-cols-4 gap-8 text-center">
+        <section className="py-24 bg-gray-50 dark:bg-zinc-950/50 transition-colors duration-300">
+            <div className="container mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-y-12 gap-x-8 text-center">
 
                 {data.map((stat, i) => (
-                    <div key={i}>
-                        <div className="text-4xl font-serif mb-2">
+                    <div key={i} className="group">
+                        <div className="text-4xl md:text-5xl font-serif mb-2 text-gray-900 dark:text-white transition-colors">
                             {stat.value}
                         </div>
-                        <div className="text-xs uppercase tracking-widest text-gray-500">
+                        <div className="text-xs uppercase tracking-widest text-gray-500 dark:text-zinc-500 font-medium">
                             {stat.label}
                         </div>
                     </div>

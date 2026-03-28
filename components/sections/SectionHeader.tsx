@@ -24,17 +24,17 @@ export default function SectionHeader({
             <div className={`container mx-auto px-6 flex flex-col ${alignment}`}>
 
                 {eyebrow && (
-                    <p className="text-xs tracking-widest uppercase text-gray-400 mb-6">
+                    <p className="text-xs tracking-widest uppercase text-gray-400 dark:text-zinc-500 mb-6">
                         {eyebrow}
                     </p>
                 )}
 
-                <h1 className="text-5xl font-serif">
+                <h1 className="text-5xl font-serif text-gray-900 dark:text-zinc-100">
                     {title}
                 </h1>
 
                 {subtitle && (
-                    <p className="mt-6 text-gray-500 ">
+                    <p className="mt-6 text-gray-500 dark:text-zinc-400 max-w-2xl leading-relaxed">
                         {subtitle}
                     </p>
                 )}

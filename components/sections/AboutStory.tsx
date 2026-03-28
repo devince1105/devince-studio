@@ -35,8 +35,8 @@ export default function AboutStory({ data }: AboutStoryProps) {
                             onError={() => setImgError(true)}
                         />
                     ) : (
-                        <div className="w-full h-full bg-gray-200 flex items-center justify-center">
-                            <span className="text-gray-400 text-sm tracking-wide">
+                        <div className="w-full h-full bg-gray-200 dark:bg-zinc-900 flex items-center justify-center">
+                            <span className="text-gray-400 dark:text-zinc-600 text-sm tracking-wide">
                                 No Image
                             </span>
                         </div>
@@ -44,19 +44,19 @@ export default function AboutStory({ data }: AboutStoryProps) {
                 </div>
 
                 {/* Content */}
-                <div className="h-86 content-start">
-                    <p className="text-xs tracking-widest text-gray-400 uppercase mb-3">
+                <div className="h-86 content-start transition-colors duration-300">
+                    <p className="text-xs tracking-widest text-gray-400 dark:text-zinc-500 uppercase mb-3">
                         {data.eyebrow}
                     </p>
 
-                    <h2 className="text-4xl font-serif mb-6">
+                    <h2 className="text-4xl font-serif mb-6 text-gray-900 dark:text-zinc-100">
                         {data.title}
                     </h2>
 
                     {data.paragraphs.map((p, i) => (
                         <p
                             key={i}
-                            className="text-gray-600 mb-4 leading-relaxed"
+                            className="text-gray-600 dark:text-zinc-400 mb-4 leading-relaxed"
                         >
                             {p}
                         </p>

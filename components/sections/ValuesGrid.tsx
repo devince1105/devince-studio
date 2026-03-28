@@ -18,19 +18,18 @@ interface ValuesGridProps {
 
 export default function ValuesGrid({ eyebrow, title, items = [] }: ValuesGridProps) {
     return (
-        <section className="py-8">
+        <section className="py-24 transition-colors duration-300">
             <div className="container mx-auto px-6 text-center max-w-5xl">
                 {eyebrow && (
-                    <p className="text-xs tracking-widest uppercase text-gray-400 mb-4">
+                    <p className="text-xs tracking-widest uppercase text-gray-400 dark:text-zinc-500 mb-4">
                         {eyebrow}
                     </p>
                 )}
 
-                {title && <h2 className="text-4xl font-serif mb-16">{title}</h2>}
+                {title && <h2 className="text-4xl font-serif mb-16 text-gray-900 dark:text-zinc-100">{title}</h2>}
 
                 <div className="grid md:grid-cols-3 gap-12">
                     {items.map((item, index) => {
-                        // ✅ 安全取 icon：只有在 lucide-react 內存在才 render
                         const Icon =
                             item.icon && item.icon in Icons
                                 ? (Icons[item.icon as keyof typeof Icons] as unknown as LucideIcon)
@@ -40,28 +39,31 @@ export default function ValuesGrid({ eyebrow, title, items = [] }: ValuesGridPro
                             <div
                                 key={index}
                                 className="
-    mx-auto
-    w-72 h-72
-    bg-teal-50
-    rounded-full
-    flex flex-col
-    content-start
-    p-10
-    text-center
-    -translate-y-2
-  "
+                                    mx-auto
+                                    w-72 h-72
+                                    bg-teal-50
+                                    dark:bg-teal-900/10
+                                    rounded-full
+                                    flex flex-col
+                                    items-center
+                                    justify-center
+                                    p-10
+                                    text-center
+                                    transition-colors
+                                    duration-300
+                                "
                             >
                                 {Icon && (
                                     <div className="mb-4 flex justify-center">
-                                        <Icon className="w-8 h-8 text-teal-500 mt-6" strokeWidth={1.5} />
+                                        <Icon className="w-8 h-8 text-teal-500 dark:text-teal-400" strokeWidth={1.5} />
                                     </div>
                                 )}
 
-                                <h3 className="text-xl font-medium mb-3 text-teal-500">
+                                <h3 className="text-xl font-medium mb-3 text-teal-500 dark:text-teal-400">
                                     {item.title}
                                 </h3>
 
-                                <p className="text-gray-500 text-sm leading-relaxed">
+                                <p className="text-gray-500 dark:text-zinc-500 text-sm leading-relaxed px-4">
                                     {item.description}
                                 </p>
                             </div>
