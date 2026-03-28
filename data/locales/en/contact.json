@@ -38,6 +38,8 @@
             "NT$100,000 – 200,000",
             "Above NT$200,000"
         ],
+        "contactLabel": "Phone / LINE ID (Optional)",
+        "contactPlaceholder": "For faster communication",
         "messageLabel": "Message",
         "messagePlaceholder": "Tell us about your project...",
         "buttonLabel": "Send Message"

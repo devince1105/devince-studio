@@ -38,6 +38,8 @@
             "100,000 – 200,000 NTD",
             "200,000 NTD 以上"
         ],
+        "contactLabel": "電話 / LINE ID (任意)",
+        "contactPlaceholder": "より迅速な連絡のために",
         "messageLabel": "メッセージ",
         "messagePlaceholder": "プロジェクト内容をご記入ください...",
         "buttonLabel": "送信する"

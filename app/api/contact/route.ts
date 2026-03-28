@@ -34,7 +34,7 @@ export async function POST(req: Request) {
         }
 
         const body = await req.json();
-        const { name, email, company, service, budget, message, website } = body;
+        const { name, email, contact, company, service, budget, message, website } = body;
 
         // --- honeypot（防 bot）
         if (website) {
@@ -44,6 +44,7 @@ export async function POST(req: Request) {
         // --- normalize
         const cleanName = clean(name);
         const cleanEmail = clean(email);
+        const cleanContact = clean(contact);
         const cleanMessage = clean(message);
 
         // --- validation
@@ -86,8 +87,7 @@ export async function POST(req: Request) {
         <h2>New Contact</h2>
         <p><b>Name:</b> ${escapeHtml(cleanName)}</p>
         <p><b>Email:</b> ${escapeHtml(cleanEmail)}</p>
-        <p><b>Company:</b> ${escapeHtml(company)}</p>
-        <p><b>Service:</b> ${escapeHtml(service)}</p>
+        <p><b>Contact (Phone/LINE):</b> ${escapeHtml(cleanContact)}</p>
         <p><b>Budget:</b> ${escapeHtml(budget)}</p>
         <p><b>Message:</b></p>
         <p>${escapeHtml(cleanMessage)}</p>

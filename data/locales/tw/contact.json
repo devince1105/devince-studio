@@ -38,6 +38,8 @@
             "100,000 – 200,000",
             "200,000 以上"
         ],
+        "contactLabel": "電話 / LINE ID (選填)",
+        "contactPlaceholder": "方便我們更快速地與您聯繫",
         "messageLabel": "專案內容",
         "messagePlaceholder": "請簡單描述您的專案需求...",
         "buttonLabel": "送出訊息"
