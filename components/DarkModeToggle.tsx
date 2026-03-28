@@ -7,32 +7,32 @@ export function DarkModeToggle() {
     const [isDark, setIsDark] = useState(false);
     const [mounted, setMounted] = useState(false);
 
+    // 1. 初始化：從 localStorage 或系統偏好讀取
     useEffect(() => {
-        setMounted(true);
         const storedTheme = localStorage.getItem("theme");
         const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
         if (storedTheme === "dark" || (!storedTheme && systemPrefersDark)) {
             setIsDark(true);
-            document.documentElement.classList.add("dark");
-        } else {
-            setIsDark(false);
-            document.documentElement.classList.remove("dark");
         }
+        setMounted(true);
     }, []);
 
-    const toggleTheme = () => {
-        const nextDark = !isDark;
-        setIsDark(nextDark);
+    // 2. 同步：當 isDark 改變時，更新 DOM 與 localStorage
+    useEffect(() => {
+        if (!mounted) return;
 
-        if (nextDark) {
-            document.documentElement.classList.add("dark");
+        const root = window.document.documentElement;
+        if (isDark) {
+            root.classList.add("dark");
             localStorage.setItem("theme", "dark");
         } else {
-            document.documentElement.classList.remove("dark");
+            root.classList.remove("dark");
             localStorage.setItem("theme", "light");
         }
-    };
+    }, [isDark, mounted]);
+
+    const toggleTheme = () => setIsDark(!isDark);
 
     if (!mounted) {
         return <div className="w-9 h-9" />;
@@ -41,10 +41,14 @@ export function DarkModeToggle() {
     return (
         <button
             onClick={toggleTheme}
-            className="p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors text-gray-600 dark:text-gray-300"
+            className="p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-300 text-gray-600 dark:text-gray-300"
             aria-label="Toggle Dark Mode"
         >
-            {isDark ? <Moon size={20} /> : <Sun size={20} />}
+            {isDark ? (
+                <Moon size={20} className="rotate-0 scale-100 transition-all" />
+            ) : (
+                <Sun size={20} className="rotate-0 scale-100 transition-all" />
+            )}
         </button>
     );
 }
