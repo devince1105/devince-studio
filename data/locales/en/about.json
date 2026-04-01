@@ -11,7 +11,7 @@
             "Established in 2020, our studio emerged from a shared vision to merge artificial intelligence with creative design.",
             "Today, we work with forward-thinking brands and startups worldwide, helping them leverage AI and 3D technologies."
         ],
-        "imageSrc": "/images/about/team-working.jpg"
+        "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/studio_aboutus.jpg"
     },
     "values": {
         "eyebrow": "What Drives Us",

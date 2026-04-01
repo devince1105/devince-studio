@@ -14,7 +14,7 @@
                 "プロジェクトスコープ定義"
             ],
             "duration": "2〜3週間",
-            "imageSrc": "/images/process/discovery.jpg"
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/process-flow-1.jpg"
         },
         {
             "title": "デザイン",
@@ -25,7 +25,7 @@
                 "インタラクティブプロトタイピング"
             ],
             "duration": "3〜4週間",
-            "imageSrc": "/images/process/design.jpg"
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/process-flow-2.jpg"
         },
         {
             "title": "開発",
@@ -36,7 +36,7 @@
                 "品質保証"
             ],
             "duration": "4〜6週間",
-            "imageSrc": "/images/process/development.jpg"
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/process-flow-3.jpg"
         },
         {
             "title": "リリース",
@@ -47,7 +47,7 @@
                 "継続的サポート"
             ],
             "duration": "1〜2週間",
-            "imageSrc": "/images/process/delivery.jpg"
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/process-flow-4.jpg"
         }
     ],
     "values": {

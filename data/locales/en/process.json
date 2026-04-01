@@ -14,7 +14,7 @@
                 "Project Scoping"
             ],
             "duration": "2–3 Weeks",
-            "imageSrc": "/images/process/discovery.jpg"
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/process-flow-1.jpg"
         },
         {
             "title": "Design",
@@ -25,7 +25,7 @@
                 "Interactive Prototyping"
             ],
             "duration": "3–4 Weeks",
-            "imageSrc": "/images/process/design.jpg"
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/process-flow-2.jpg"
         },
         {
             "title": "Development",
@@ -36,7 +36,7 @@
                 "Quality Assurance"
             ],
             "duration": "4–6 Weeks",
-            "imageSrc": "/images/process/development.jpg"
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/process-flow-3.jpg"
         },
         {
             "title": "Delivery",
@@ -47,7 +47,7 @@
                 "Ongoing Support"
             ],
             "duration": "1–2 Weeks",
-            "imageSrc": "/images/process/delivery.jpg"
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/process-flow-4.jpg"
         }
     ],
     "values": {

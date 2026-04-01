@@ -13,7 +13,7 @@
                 "自然言語処理システム",
                 "カスタムダッシュボード"
             ],
-            "imageSrc": "/images/services/ai.jpg"
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/studio_ai.jpg"
         },
         {
             "title": "3Dインタラクティブ体験",
@@ -23,7 +23,7 @@
                 "製品コンフィギュレーター",
                 "3Dアニメーション制作"
             ],
-            "imageSrc": "/images/services/3d.jpg"
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/studio-3d.jpg"
         },
         {
             "title": "インタラクティブデザイン",
@@ -33,7 +33,7 @@
                 "マイクロインタラクション",
                 "デザインシステム構築"
             ],
-            "imageSrc": "/images/services/ui.jpg"
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/studio_design.jpg"
         }
     ],
     "contact": {

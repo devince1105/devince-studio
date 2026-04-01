@@ -14,7 +14,7 @@
                 "專案範疇規劃"
             ],
             "duration": "2–3 週",
-            "imageSrc": "/images/process/discovery.jpg"
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/process-flow-1.jpg"
         },
         {
             "title": "設計規劃",
@@ -25,7 +25,7 @@
                 "互動原型製作"
             ],
             "duration": "3–4 週",
-            "imageSrc": "/images/process/design.jpg"
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/process-flow-2.jpg"
         },
         {
             "title": "系統開發",
@@ -36,7 +36,7 @@
                 "品質測試與驗證"
             ],
             "duration": "4–6 週",
-            "imageSrc": "/images/process/development.jpg"
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/process-flow-3.jpg"
         },
         {
             "title": "交付上線",
@@ -47,7 +47,7 @@
                 "持續維護支援"
             ],
             "duration": "1–2 週",
-            "imageSrc": "/images/process/delivery.jpg"
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/process-flow-4.jpg"
         }
     ],
     "values": {

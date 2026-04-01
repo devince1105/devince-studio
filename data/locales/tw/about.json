@@ -11,7 +11,7 @@
             "成立於 2020 年，我們的工作室源自於一個共同願景 —— 將人工智慧與創意設計融合。",
             "如今，我們與全球具前瞻性的品牌與新創合作，運用 AI 與 3D 技術打造獨具特色的數位體驗。"
         ],
-        "imageSrc": "/images/about/team-working.jpg"
+        "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/studio_aboutus.jpg"
     },
     "values": {
         "eyebrow": "核心理念",

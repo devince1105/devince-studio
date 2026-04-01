@@ -11,7 +11,7 @@
             "2020年に設立された私たちのスタジオは、人工知能とクリエイティブデザインを融合するという共通のビジョンから生まれました。",
             "現在では、世界中の先進的なブランドやスタートアップと協働し、AIと3D技術を活用したデジタル体験を創造しています。"
         ],
-        "imageSrc": "/images/about/team-working.jpg"
+        "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/studio_aboutus.jpg"
     },
     "values": {
         "eyebrow": "私たちの価値観",

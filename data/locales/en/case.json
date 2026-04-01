@@ -66,6 +66,36 @@
                 "Interactive Design"
             ],
             "demoUrl": "https://vince115.github.io/pumpkin-3d/"
+        },
+        {
+            "title": "Taiwan Weather Command System",
+            "description": "A real-time weather monitoring dashboard powered by Taiwan CWA Open Data, featuring live metrics, 7-day forecasts, and responsive design across devices.",
+            "category": "Web Applications",
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/weather-systw-cover.png",
+            "year": "2026",
+            "tags": [
+                "Next.js",
+                "TypeScript",
+                "TailwindCSS",
+                "CWA API",
+                "Data Visualization"
+            ],
+            "demoUrl": "https://weather-system-tw.vercel.app/"
+        },
+        {
+            "title": "Personal Blog Platform",
+            "description": "A personalized content platform built with Next.js, supporting multi-language, MDX-based writing, and SEO optimization for branding and technical content.",
+            "category": "Web Applications",
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/devince-blog-cover.png",
+            "year": "2026",
+            "tags": [
+                "Next.js",
+                "MDX",
+                "i18n",
+                "SEO",
+                "Content Platform"
+            ],
+            "demoUrl": "https://devince-blog.vercel.app/"
         }
     ],
     "contact": {

@@ -66,6 +66,36 @@
                 "互動設計"
             ],
             "demoUrl": "https://vince115.github.io/pumpkin-3d/"
+        },
+        {
+            "title": "台灣氣象監測系統",
+            "description": "整合中央氣象署開放資料，提供即時氣象監測與一週預報的可視化儀表板，支援 RWD 與多區域查詢。",
+            "category": "Web 應用",
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/weather-systw-cover.png",
+            "year": "2026",
+            "tags": [
+                "Next.js",
+                "TypeScript",
+                "TailwindCSS",
+                "CWA API",
+                "Data Visualization"
+            ],
+            "demoUrl": "https://weather-system-tw.vercel.app/"
+        },
+        {
+            "title": "個人化部落格平台",
+            "description": "基於 Next.js 建立的個人化內容平台，支援多語系、Markdown/MDX 撰寫與 SEO 最佳化，適合打造品牌內容與技術分享。",
+            "category": "Web 應用",
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/devince-blog-cover.png",
+            "year": "2026",
+            "tags": [
+                "Next.js",
+                "MDX",
+                "i18n",
+                "SEO",
+                "內容平台"
+            ],
+            "demoUrl": "https://devince-blog.vercel.app/"
         }
     ],
     "contact": {

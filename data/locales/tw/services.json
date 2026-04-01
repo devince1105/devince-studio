@@ -13,7 +13,7 @@
                 "自然語言處理系統",
                 "客製化儀表板"
             ],
-            "imageSrc": "/images/services/ai.jpg"
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/studio_ai.jpg"
         },
         {
             "title": "3D 互動體驗",
@@ -23,7 +23,7 @@
                 "產品客製化配置器",
                 "3D 動畫製作"
             ],
-            "imageSrc": "/images/services/3d.jpg"
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/studio-3d.jpg"
         },
         {
             "title": "互動設計",
@@ -33,7 +33,7 @@
                 "微互動設計",
                 "設計系統建構"
             ],
-            "imageSrc": "/images/services/ui.jpg"
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/studio_design.jpg"
         }
     ],
     "contact": {

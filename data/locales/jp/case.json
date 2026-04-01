@@ -66,6 +66,36 @@
                 "インタラクション設計"
             ],
             "demoUrl": "https://vince115.github.io/pumpkin-3d/"
+        },
+        {
+            "title": "台湾気象モニタリングシステム",
+            "description": "台湾中央気象局（CWA）のオープンデータを活用したリアルタイム気象ダッシュボード。ライブデータ表示、7日間予報、レスポンシブ対応を備えています。",
+            "category": "Webアプリケーション",
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/weather-systw-cover.png",
+            "year": "2026",
+            "tags": [
+                "Next.js",
+                "TypeScript",
+                "TailwindCSS",
+                "CWA API",
+                "データ可視化"
+            ],
+            "demoUrl": "https://weather-system-tw.vercel.app/"
+        },
+        {
+            "title": "パーソナルブログプラットフォーム",
+            "description": "Next.js をベースに構築された個人向けコンテンツプラットフォーム。多言語対応、MDX による記事作成、SEO 最適化に対応しています。",
+            "category": "Webアプリケーション",
+            "imageSrc": "https://phzgzfkvrwbtosuqfsyo.supabase.co/storage/v1/object/public/images/devince-blog-cover.png",
+            "year": "2026",
+            "tags": [
+                "Next.js",
+                "MDX",
+                "i18n",
+                "SEO",
+                "コンテンツプラットフォーム"
+            ],
+            "demoUrl": "https://devince-blog.vercel.app/"
         }
     ],
     "contact": {
