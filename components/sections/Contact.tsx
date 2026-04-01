@@ -25,7 +25,7 @@ export default function Contact({
             className={`${isHero ? "py-40 text-center" : "py-32 text-center"
                 }`}
         >
-            <div className="container mx-auto px-6 max-w-3xl">
+            <div className="max-w-6xl mx-auto px-6 lg:px-8">
 
                 {data.eyebrow && (
                     <p className="text-xs tracking-widest uppercase text-gray-400 dark:text-zinc-500 mb-6">
@@ -35,8 +35,8 @@ export default function Contact({
 
                 <h2
                     className={`font-serif text-gray-900 dark:text-zinc-100 ${isHero
-                            ? "text-6xl mb-8"
-                            : "text-4xl md:text-5xl mb-6"
+                        ? "text-6xl mb-8"
+                        : "text-4xl md:text-5xl mb-6"
                         }`}
                 >
                     {data.title}

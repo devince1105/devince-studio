@@ -17,7 +17,7 @@ interface AboutValuesProps {
 export default function AboutValues({ data }: AboutValuesProps) {
     return (
         <section className="py-24 bg-gray-50">
-            <div className="container mx-auto px-6">
+            <div className="max-w-6xl mx-auto px-6 lg:px-8">
 
                 <div className="text-center mb-16">
                     <p className="text-xs tracking-widest text-gray-400 uppercase">
@@ -28,7 +28,7 @@ export default function AboutValues({ data }: AboutValuesProps) {
                     </h2>
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-10">
+                <div className="grid md:grid-cols-3 gap-12">
                     {data.items.map((item, i) => {
                         const Icon = (Icons as any)[item.icon];
 

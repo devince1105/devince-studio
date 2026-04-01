@@ -122,6 +122,7 @@ export default function Navbar({ locale, data }: NavbarProps) {
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="p-2 text-zinc-500 dark:text-zinc-400"
+            suppressHydrationWarning
           >
             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>

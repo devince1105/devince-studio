@@ -1,7 +1,7 @@
 export default function Projects() {
     return (
         <section className="py-32 bg-[#ececea]">
-            <div className="container mx-auto px-6">
+            <div className="max-w-6xl mx-auto px-6 lg:px-8">
 
                 <p className="text-xs tracking-widest text-gray-400 uppercase">
                     Selected Work

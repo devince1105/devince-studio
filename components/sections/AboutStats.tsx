@@ -10,7 +10,7 @@ interface AboutStatsProps {
 export default function AboutStats({ data }: AboutStatsProps) {
     return (
         <section className="py-24 bg-gray-50 dark:bg-zinc-950/50 transition-colors duration-300">
-            <div className="container mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-y-12 gap-x-8 text-center">
+            <div className="max-w-6xl mx-auto px-6 lg:px-8 grid grid-cols-2 md:grid-cols-4 gap-y-12 gap-x-8 text-center">
 
                 {data.map((stat, i) => (
                     <div key={i} className="group">

@@ -171,6 +171,7 @@ export default function Carousel() {
         <button
           onClick={prev}
           className="group absolute left-10 top-1/2 -translate-y-1/2 w-12 h-12 border border-white/20 bg-white/5 hover:bg-teal-400/20 hover:border-teal-400/40 rounded-full flex items-center justify-center backdrop-blur-md transition-all duration-300 z-20 hover:scale-110 active:scale-95 shadow-xl"
+          suppressHydrationWarning
         >
           <ChevronLeft className="text-white group-hover:-translate-x-1 transition-transform duration-300" size={20} strokeWidth={1.5} />
         </button>
@@ -179,6 +180,7 @@ export default function Carousel() {
         <button
           onClick={next}
           className="group absolute right-10 top-1/2 -translate-y-1/2 w-12 h-12 border border-white/20 bg-white/5 hover:bg-teal-400/20 hover:border-teal-400/40 rounded-full flex items-center justify-center backdrop-blur-md transition-all duration-300 z-20 hover:scale-110 active:scale-95 shadow-xl"
+          suppressHydrationWarning
         >
           <ChevronRight className="text-white group-hover:translate-x-1 transition-transform duration-300" size={20} strokeWidth={1.5} />
         </button>

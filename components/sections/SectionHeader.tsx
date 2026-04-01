@@ -21,7 +21,7 @@ export default function SectionHeader({
 
     return (
         <section className="py-24">
-            <div className={`container mx-auto px-6 flex flex-col ${alignment}`}>
+            <div className={`max-w-6xl mx-auto px-6 lg:px-8 flex flex-col ${alignment}`}>
 
                 {eyebrow && (
                     <p className="text-xs tracking-widest uppercase text-gray-400 dark:text-zinc-500 mb-6">

@@ -14,7 +14,7 @@ interface ServicesProps {
 export default function Services({ data }: ServicesProps) {
     return (
         <section className="py-32">
-            <div className="container mx-auto px-6">
+            <div className="max-w-6xl mx-auto px-6 lg:px-8">
 
                 <p className="text-xs tracking-widest text-gray-400 dark:text-zinc-500 uppercase">
                     {data.eyebrow}

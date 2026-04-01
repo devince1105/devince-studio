@@ -9,7 +9,7 @@ interface Props {
 export default function CaseHeader({ data }: Props) {
     return (
         <section className="py-24">
-            <div className="container mx-auto px-6">
+            <div className="max-w-6xl mx-auto px-6 lg:px-8">
                 <p className="text-sm tracking-widest uppercase text-gray-400">
                     {data.eyebrow}
                 </p>

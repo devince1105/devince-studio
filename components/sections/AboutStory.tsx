@@ -22,7 +22,7 @@ export default function AboutStory({ data }: AboutStoryProps) {
 
     return (
         <section className="py-24">
-            <div className="container mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+            <div className="max-w-6xl mx-auto px-6 lg:px-8 grid md:grid-cols-2 gap-16 items-center">
 
                 {/* Image */}
                 <div className="relative w-full h-96 rounded-2xl overflow-hidden">

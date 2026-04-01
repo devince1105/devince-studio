@@ -19,7 +19,7 @@ interface ValuesGridProps {
 export default function ValuesGrid({ eyebrow, title, items = [] }: ValuesGridProps) {
     return (
         <section className="py-24 transition-colors duration-300">
-            <div className="container mx-auto px-6 text-center max-w-5xl">
+            <div className="max-w-6xl mx-auto px-6 lg:px-8 text-center">
                 {eyebrow && (
                     <p className="text-xs tracking-widest uppercase text-gray-400 dark:text-zinc-500 mb-4">
                         {eyebrow}

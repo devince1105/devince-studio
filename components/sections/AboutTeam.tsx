@@ -17,7 +17,7 @@ export default function AboutTeam({ data }: AboutTeamProps) {
 
     return (
         <section className="py-24 transition-colors duration-300">
-            <div className="container mx-auto px-6">
+            <div className="max-w-6xl mx-auto px-6 lg:px-8">
 
                 <div className="text-center mb-16">
                     <p className="text-xs tracking-widest text-gray-400 dark:text-zinc-500 uppercase">
