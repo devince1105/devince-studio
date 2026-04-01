@@ -22,11 +22,10 @@ export default async function ContactPage({ params }: PageProps) {
     const content = contactContentMap[safeLocale];
 
     return (
-        <div className="max-w-screen-xl mx-auto px-6 pb-40">
+        <div className="max-w-screen-xl mx-auto px-6">
+            <SectionHeader {...content.header} align="left" />
             {/* Strategy 3: Unified Header & Hero Area */}
-            <div className="pt-24 mb-20 animate-in fade-in slide-in-from-bottom-4 duration-1000">
-                <SectionHeader {...content.header} align="left" />
-                
+            <div className="mb-20 animate-in fade-in slide-in-from-bottom-4 duration-1000 ml-12">
                 {/* Trust Block - Integrated closer to the action */}
                 <div className="mt-8 max-w-2xl border-l-2 border-teal-500 pl-8 space-y-4">
                     <h3 className="text-lg font-serif italic text-gray-900 dark:text-zinc-100">
@@ -48,7 +47,7 @@ export default async function ContactPage({ params }: PageProps) {
                 </div>
             </div>
 
-            <section className="mb-40">
+            <section className="mb-40 ml-12">
                 <div className="grid lg:grid-cols-12 gap-16 lg:gap-24 items-start">
                     {/* Form Component */}
                     <div className="lg:col-span-8">
